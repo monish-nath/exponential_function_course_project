@@ -1,4 +1,4 @@
-# exponential-function-course_project
+# exponential_function_course_project
 An Area-Efficient and High Throughput Hardware Implementation of Exponent Function
 
 M. A. Hussain, S. -W. Lin and T. -H. Tsai, ”An Area-Efficient and High
