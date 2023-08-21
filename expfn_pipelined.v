@@ -66,6 +66,7 @@ module expfn_pipelined(
     assign i1 = x[31] ? 'd9-i : 'd9+i;
     assign two_i = 'b1 << (i1); //-ve x working
     
-    assign out = two_i * two_f[16:0];   //21.9 * 1.16
+    assign out = two_i * two_f[16:0];   //21.9 * 1.16    
+    //can be implemented without multiplying and directly shifting
     
 endmodule
